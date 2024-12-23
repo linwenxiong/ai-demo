@@ -1,0 +1,160 @@
+@import './base.css';
+@media screen and (orientation: landscape) {
+
+  /* 横屏样式 */
+  .header {
+    .header-right-btn {
+      position: fixed;
+      right: 66px;
+      top: 116px;
+      display: flex;
+
+      .header-right-btn__start,
+      .header-right-btn__set {
+        width: 88px;
+        height: 88px;
+      }
+
+      .header-right-btn__start {
+        background: url(../assets/stop.png) no-repeat;
+        background-size: 100%;
+        &.play {
+          background: url(../assets/start.png) no-repeat;
+          background-size: 100%;
+        }
+
+        &.reload {}
+      }
+
+      .header-right-btn__set {
+        background: url(../assets/set.png) no-repeat;
+        margin-left: 44px;
+        background-size: 100%;
+      }
+    }
+
+    .header_back {
+      width: 88px;
+      height: 88px;
+      background: url(../assets/back.png) no-repeat;
+      background-size: 127px;
+      background-position: center;
+      position: fixed;
+      top: 114px;
+      left: 59px;
+    }
+
+    .header-progress-box {
+      display: flex;
+      margin: 0 424px 0 236px;
+      padding-top: 76px;
+    }
+
+    .header-progress-item {
+      flex: 1;
+
+      &:last-child {
+        flex: none;
+
+        .header-progress-item__line {
+          background-color: #fff;
+          width: 0;
+        }
+      }
+
+      .header-progress-item__title {
+        transition: all .5s;
+        position: relative;
+        display: inline-block;
+        font-weight: normal;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        background: url(../assets/po.png) no-repeat;
+        background-size: 100% 100%;
+        height: 76px;
+        padding: 6px 30px 0;
+        margin-left: -35px;
+      }
+
+      .header-progress-item__text {
+        font-size: 42px;
+        display: inline-block;
+        transform: skewX(-12deg); // 水平倾斜10度
+        background: linear-gradient(86deg, #2B57C4 1%, #209EB6 117%);
+        -webkit-background-clip: text;
+        color: transparent; // 确保文本
+      }
+
+      .header-progress-item__line {
+        height: 11px;
+        background-color: #b7cff8;
+        position: relative;
+
+        &:after {
+          position: absolute;
+          left: 0;
+          top: -14px;
+          content: '';
+          width: 40px;
+          height: 40px;
+          background-color: #fff;
+          border-radius: 50%;
+          border: 7px solid #b7cff8;
+        }
+      }
+
+      &.done {
+        .header-progress-item__line {
+          background: #4770ce;
+        }
+      }
+
+      &.active {
+        .header-progress-item__title {
+          background: url(../assets/po-active.png) no-repeat;
+          background-size: 100% 100%;
+        }
+
+        .header-progress-item__text {
+          color: #fff;
+        }
+
+        .header-progress-item__line {
+          background: linear-gradient(to right, #4770ce, #3ab9c0);
+
+          &:after {
+            width: 50px;
+            height: 50px;
+            top: -18px;
+            background-color: #fff;
+            border-radius: 50%;
+            border: 8px solid #2b5ac4;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    padding: 106px 65px 0;
+    font-size: 52px;
+    line-height: 1.8;
+  }
+
+  .captions {
+    color: #fff;
+    text-align: center;
+    padding: 27px 75px;
+    background: linear-gradient(262deg, #1BB6B1 1%, #2A61C2 63%, #2D52C5 100%);
+    position: fixed;
+    left: 50%;
+    bottom: 93px;
+    transform: translateX(-50%);
+    border-radius: 20px;
+
+    .caption_text {
+      font-size: 58px;
+      font-weight: bold;
+    }
+  }
+}
