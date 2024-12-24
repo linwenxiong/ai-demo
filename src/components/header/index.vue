@@ -21,11 +21,13 @@
   </div>
 </template>
 <script setup lang="ts">
+  const emit = defineEmits(['itemClick']);
   const activeIndex = ref(0);
   const isPlay = ref(false);
   let navList = ['全文讲解', '第一题', '第二题', '第三题', '总结'];
   const itemClick = (index: number) => {
     activeIndex.value = index;
+    emit('itemClick', index);
   }
   const startPlay = () => {
     isPlay.value = !isPlay.value
