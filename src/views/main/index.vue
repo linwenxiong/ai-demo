@@ -75,6 +75,7 @@
 </template>
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
+console.log(SwiperSlide)
 import 'swiper/css';
 import Header from '@/components/header/index.vue';
 import testData from '../../mock/全部解读'

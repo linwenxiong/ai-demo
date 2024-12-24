@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.29.1",
     "pinia": "^2.2.6",
     "postcss": "^7.0.39",
     "sass-embedded": "^1.83.0",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "^22.9.3",
+    "@types/swiper": "^6.0.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "esbuild": "^0.24.0",
