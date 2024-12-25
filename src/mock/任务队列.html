@@ -1,0 +1,73 @@
+<html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <button onclick="clickHandle(1)">拉取数据</button>
+    <button onclick="clickHandle(2)">拉取数据</button>
+</body>
+<script>
+// 组装所有原文并且按顺序解读
+    var closedoorcommand = {
+        audiosList: [],
+        zuzhuang: function() {
+            this.audiosList.push('1.mp3')
+            this.audiosList.push('2.mp3')
+            this.audiosList.push('3.mp3')
+        },
+        play: function() {
+            this.zuzhuang()
+            let playNext = (index) => {
+            if (index >= this.audiosList.length) return Promise.resolve();
+                return new Promise((resolve) => {
+                    let audio = new Audio(this.audiosList[index]);
+                    audio.onended = resolve;
+                    audio.play();
+                }).then(() => playNext(index + 1));
+            };
+            return playNext(0);
+        },
+        execute: function () {
+            this.play()
+            console.log('关门');
+        }
+    }
+
+    var opencommand = {
+        execute: function () {
+            console.log('开电脑');
+        }
+    }
+
+    var openqqcommand = {
+        execute: function () {
+            console.log('登qq');
+        }
+    }
+
+    var Macrocommand = function () {
+        return {
+            commandsList: [],
+            add: function (command) {
+                this.commandsList.push(command)
+            },
+            execute: function () {
+                for (var i = 0, command; command = this.commandsList[i++];) {
+                    command.execute()
+                }
+            }
+        }
+    }
+
+    var macroCommads = Macrocommand();
+    macroCommads.add(closedoorcommand)
+    macroCommads.add(opencommand)
+    macroCommads.add(openqqcommand)
+    macroCommads.execute()
+</script>
+
+</html>

@@ -1,0 +1,62 @@
+{
+    "重点词汇":
+    [
+        {
+            "词汇": "important",
+            "讲解": "形容词，意为‘重要的’，常用搭配如‘an important meeting’（一个重要的会议），例如‘It's the most important festival in China.’（它是中国最重要的节日）。"
+        },
+        {
+            "词汇": "celebrate",
+            "讲解": "动词，意思是‘庆祝’，常用搭配如‘celebrate one's birthday’（庆祝某人的生日），像‘When is the Spring Festival usually celebrated in China?’（中国通常在什么时候庆祝春节呢？）。"
+        },
+        {
+            "词汇": "mean",
+            "讲解": "动词，在这里意为‘意思是，意味着’，例如‘What does this word mean?’（这个单词是什么意思？），又如‘The food means 'coming together'.’（这种食物意味着“团聚”）。"
+        }
+    ],
+    "常考词汇":
+    [
+        {
+            "词汇": "usually",
+            "讲解": "副词，意为‘通常，常常’，常放在实义动词之前，be动词、助动词、情态动词之后，比如‘I usually get up at six.’（我通常六点起床），在询问习惯、常规情况的题目中容易涉及。"
+        },
+        {
+            "词汇": "special",
+            "讲解": "形容词，意为‘特别的，特殊的’，例如‘a special gift’（一份特别的礼物），常出现在描述事物特征的语境中考查。"
+        },
+        {
+            "词汇": "kind",
+            "讲解": "在这里作名词，意思是‘种类’，常用搭配‘a kind of’（一种……），‘kinds of’（各种各样的），在涉及种类相关的表达时可能会考查。"
+        }
+    ],
+    "常见/固定搭配":
+    [
+        {
+            "常见/固定搭配": "at the Spring Festival",
+            "讲解": "意为‘在春节期间’，表示时间范围哦，例如‘______are the special kind of food for Chinese people at the Spring Festival.’（在春节期间，对于中国人来说（什么）是特别种类的食物）。"
+        },
+        {
+            "常见/固定搭配": "prepare for",
+            "讲解": "表示‘为……做准备’，例如‘We are preparing for the exam.’（我们正在为考试做准备），在描述准备活动相关语句中常用到。"
+        },
+        {
+            "常见/固定搭配": "buy sth for sb",
+            "讲解": "是一个很常用的表达‘为某人买某物’的句型，如‘My mother buys a book for me.’（我妈妈给我买了一本书），在购物、赠送礼物等语境中容易考查。"
+        }
+    ],
+    "长难句解析":
+    [
+        {
+            "长难句原文": "Which is the most important festival in China?",
+            "讲解": "这是一个特殊疑问句，以特殊疑问词‘Which’开头，用来对具体范围内的事物进行提问，句中的‘be动词’要根据后面的主语单复数等情况进行相应变化哦。这里用的是‘is’，因为主语‘the most important festival’是单数形式，‘the most important’是形容词的最高级形式，用于三者或三者以上进行比较，表示‘最……的’，整句意思是‘中国最重要的节日是哪一个呢？’"
+        },
+        {
+            "长难句原文": "When is the Spring Festival usually celebrated in China?",
+            "讲解": "同样是特殊疑问句，以特殊疑问词‘When’开头来询问时间相关的内容哦。句中‘is celebrated’是一般现在时的被动语态结构，其构成是‘be动词 + 过去分词’，表示‘被庆祝’，在这里就是说春节通常被庆祝的时间情况，整句意思是‘中国通常在什么时候庆祝春节呢？’"
+        },
+        {
+            "长难句原文": "When they enjoy dinner, they give each other the best wishes(最好的祝愿)for the coming year.",
+            "讲解": "整个句子是一个含有时间状语从句的复合句，‘When...’引导的是时间状语从句，意为‘当……的时候’，强调主句动作发生的时间背景。‘give each other the best wishes’表示‘互相给予某物’，是一种常用的表达相互行为的句型。同时，句中遵循‘主将从现’等时态搭配规则，不过这里从句和主句都用的一般现在时，是因为描述的是经常发生的习惯性动作哦，整句意思是‘当他们享用晚餐时，他们会为即将到来的一年互相送上最好的祝愿。’"
+        }
+    ]
+}

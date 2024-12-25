@@ -1,0 +1,171 @@
+{
+    "学段": "小学",
+    "科目": "英语。",
+    "题型": "阅读理解题",
+    "题干": "阅读短文，选择正确的答案。",
+    "文章":
+    {
+        "标题": "",
+        "段落":
+        [
+            {
+                "序号": 1,
+                "句子":
+                [
+                    {
+                        "序号": 1,
+                        "原文": "Every year, we have the Spring Festival in China.",
+                        "翻译": "每年，在中国我们都过春节。"
+                    },
+                    {
+                        "序号": 2,
+                        "原文": "It's usually in January or February.",
+                        "翻译": "它通常在一月或二月。"
+                    },
+                    {
+                        "序号": 3,
+                        "原文": "It's the most important(最重要的)festival in China.",
+                        "翻译": "它是中国最重要的节日。"
+                    },
+                    {
+                        "序号": 4,
+                        "原文": "So before it comes, people always prepare(准备) a lot of things.",
+                        "翻译": "所以在它到来之前，人们总是准备很多东西。"
+                    },
+                    {
+                        "序号": 5,
+                        "原文": "And they often make a special kind of food - dumplings (饺子).",
+                        "翻译": "并且他们经常做一种特别的食物——饺子。"
+                    },
+                    {
+                        "序号": 6,
+                        "原文": "The food means \"coming together\".",
+                        "翻译": "这种食物意味着“团聚”。"
+                    },
+                    {
+                        "序号": 7,
+                        "原文": "Before the festival, parents buy new clothes for their children.",
+                        "翻译": "在节日之前，父母们给他们的孩子买新衣服。"
+                    },
+                    {
+                        "序号": 8,
+                        "原文": "On Chinese New Year's Eve, all the family members come back to their home.",
+                        "翻译": "在除夕之夜，所有的家庭成员都回到他们的家。"
+                    },
+                    {
+                        "序号": 9,
+                        "原文": "This is a happy moment(时刻).",
+                        "翻译": "这是一个快乐的时刻。"
+                    },
+                    {
+                        "序号": 10,
+                        "原文": "When they enjoy dinner, they give each other the best wishes(最好的祝愿)for the coming year.",
+                        "翻译": "当他们享用晚餐时，他们互相给予对来年的最好祝愿。"
+                    }
+                ]
+            }
+        ]
+    },
+    "题目":
+    [
+        {
+            "序号": 1,
+            "题干": "",
+            "题目":
+            [
+                {
+                    "序号": 1,
+                    "问题描述":
+                    {
+                        "原文": "Which is the most important festival in China?<作答区域>( )</作答区域>",
+                        "翻译": "中国最重要的节日是哪个？"
+                    },
+                    "选项":
+                    [
+                        {
+                            "原文": "A.Christmas.",
+                            "翻译": "圣诞节。"
+                        },
+                        {
+                            "原文": "B.May Day.",
+                            "翻译": "五一劳动节。"
+                        },
+                        {
+                            "原文": "C.The Spring Festival.",
+                            "翻译": "春节。"
+                        }
+                    ]
+                },
+                {
+                    "序号": 2,
+                    "问题描述":
+                    {
+                        "原文": "When is the Spring Festival usually celebrated in China?<作答区域>( )</作答区域>",
+                        "翻译": "在中国，春节通常在什么时候庆祝？"
+                    },
+                    "选项":
+                    [
+                        {
+                            "原文": "A.In March or April.",
+                            "翻译": "在三月或四月。"
+                        },
+                        {
+                            "原文": "B.In May or June.",
+                            "翻译": "在五月或六月。"
+                        },
+                        {
+                            "原文": "C.In January or February.",
+                            "翻译": "在一月或二月。"
+                        }
+                    ]
+                },
+                {
+                    "序号": 3,
+                    "问题描述":
+                    {
+                        "原文": "<作答区域>__</作答区域>are the special kind of food for Chinese people at the Spring Festival.<作答区域>( )</作答区域>",
+                        "翻译": "__是中国人在春节时的一种特别的食物。"
+                    },
+                    "选项":
+                    [
+                        {
+                            "原文": "A.Potatoes.",
+                            "翻译": "土豆。"
+                        },
+                        {
+                            "原文": "B.Dumplings.",
+                            "翻译": "饺子。"
+                        },
+                        {
+                            "原文": "C.Noodles.",
+                            "翻译": "面条。"
+                        }
+                    ]
+                },
+                {
+                    "序号": 4,
+                    "问题描述":
+                    {
+                        "原文": "What does the food \"dumplings\" mean for Chinese people?<作答区域>( )</作答区域>",
+                        "翻译": "对于中国人来说，食物“饺子”意味着什么？"
+                    },
+                    "选项":
+                    [
+                        {
+                            "原文": "A.Best wishes.",
+                            "翻译": "最好的祝愿。"
+                        },
+                        {
+                            "原文": "B.Helping yourself.",
+                            "翻译": "请自便。"
+                        },
+                        {
+                            "原文": "C.Coming together.",
+                            "翻译": "团聚。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

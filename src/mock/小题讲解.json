@@ -1,0 +1,99 @@
+﻿{
+    "小题讲解":
+    [
+        {
+            "序号": 1,
+            "题干": "阅读短文，选择正确的答案。",
+            "题目":
+            [
+                {
+                    "序号": 1,
+                    "串场":
+                    {
+                        "文本": "我们来看第1题。",
+                        "音频": "question-analysis-0.mp3"
+                    },
+                    "解析":
+                    {
+                        "解": "根据题干关键词“the most important festival”，可在原文中找到关键句“It's the most important(最重要的)festival in China.”（句子编号为3）。由此可知文中提到的最重要的节日是春节，A选项圣诞节是西方节日，B选项五一劳动节并非文中所指的最重要节日，均不符合原文意思。",
+                        "音频": "question-analysis-1.mp3",
+                        "关键词":
+                        [
+                            "the most important festival"
+                        ],
+                        "关键句":
+                        [
+                            3
+                        ]
+                    }
+                },
+                {
+                    "序号": 2,
+                    "串场":
+                    {
+                        "文本": "我们来看第2题。",
+                        "音频": "question-analysis-0.mp3"
+                    },
+                    "解析":
+                    {
+                        "解": "根据题干关键词“When”、“Spring Festival”，可在原文中找到关键句“It's usually in January or February.”（句子编号为2）。说明春节通常在一月或二月，A选项三月或四月、B选项五月或六月均不符合原文所述春节的时间。",
+                        "音频": "question-analysis-2.mp3",
+                        "关键词":
+                        [
+                            "When",
+                            "Spring Festival"
+                        ],
+                        "关键句":
+                        [
+                            2
+                        ]
+                    }
+                },
+                {
+                    "序号": 3,
+                    "串场":
+                    {
+                        "文本": "我们来看第3题。",
+                        "音频": "question-analysis-0.mp3"
+                    },
+                    "解析":
+                    {
+                        "解": "根据题干关键词“special kind of food”、“Spring Festival”，可在原文中找到关键句“And they often make a special kind of food - dumplings (饺子).”（句子编号为5）。可知春节时特别的食物是饺子，A选项土豆、C选项面条均不符合原文所指。",
+                        "音频": "question-analysis-3.mp3",
+                        "关键词":
+                        [
+                            "special kind of food",
+                            "Spring Festival"
+                        ],
+                        "关键句":
+                        [
+                            5
+                        ]
+                    }
+                },
+                {
+                    "序号": 4,
+                    "串场":
+                    {
+                        "文本": "我们来看第4题。",
+                        "音频": "question-analysis-0.mp3"
+                    },
+                    "解析":
+                    {
+                        "解": "根据题干关键词“dumplings”、“mean”，可在原文中找到关键句“The food means \"coming together\".”（句子编号为6）。所以饺子意味着团聚，A选项最好的祝愿、B选项帮助自己均不符合原文对饺子含义的描述。",
+                        "音频": "question-analysis-4.mp3",
+                        "关键词":
+                        [
+                            "dumplings",
+                            "mean"
+                        ],
+                        "关键句":
+                        [
+                            6
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
