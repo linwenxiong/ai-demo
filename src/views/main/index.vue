@@ -40,27 +40,21 @@
           </div>
 
           <!--  常考词汇 -->
-          <div class="detail-container__row">
-            <div class="detail-container__row-title">
-              <span class="detail-container__row-title-text">小升初常考词汇</span>
-            </div>
+          <containerRow title="小升初常考词汇">
             <section class="detail-container__row-high" v-for="word, widx in item.vocabulary" :key="word.word + widx">
               <div class="detail-container__row-high__head">{{word.word}}</div>
               <div class="detail-container__row-high__body">{{ word.desc }}</div>
             </section>
-          </div>
+          </containerRow>
 
           <!--  长难句解析 -->
-          <div class="detail-container__row">
-            <div class="detail-container__row-title">
-              <span class="detail-container__row-title-text">长难句解析</span>
-            </div>
+          <containerRow title="长难句解析">
             <section class="detail-container__row-high" v-for="sentence, lidx in item.logAnalysis" :key="sentence.word + lidx">
               <div class="detail-container__row-high__head text-indent"><i class="detail-container__row-head__icon">{{ lidx+1  }}</i>{{ sentence.word }}</div>
               <div class="detail-container__row-high__body">{{ sentence.desc }}</div>
             </section>
-          </div>
-
+          </containerRow>
+          
         </div>
       </div>
     </swiper-slide>
@@ -72,10 +66,10 @@
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import type {  Swiper as SwiperType } from 'swiper/types';
-
 import 'swiper/css';
 import Header from '@/components/header/index.vue';
 import AiTeacher from '@/components/ai-teacher.vue'
+import containerRow from './components/container-row.vue'
 import FooterCaption from '@/components/footer-caption.vue'
 import testData from '../../mock/全部解读'
 import { questionList } from '../../mock/题目'
