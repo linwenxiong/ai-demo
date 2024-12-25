@@ -71,12 +71,11 @@ import Header from '@/components/header/index.vue';
 import AiTeacher from '@/components/ai-teacher.vue'
 import containerRow from './components/container-row.vue'
 import FooterCaption from '@/components/footer-caption.vue'
-import testData from '../../mock/全部解读'
+import { content } from '../../mock/全部解读'
 import { questionList } from '../../mock/题目'
 
 const current = ref(0)
 const contentdom = ref<HTMLElement | null>(null)
-const content = testData.content
 
 let swiperInstance: SwiperType | null = null
 
