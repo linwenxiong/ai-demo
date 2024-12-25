@@ -13,6 +13,7 @@ export default {
     Before the festival, parents buy new clothes for their children. On Chinese New
     Year's Eve, all the family members come back to their home. This is a happy
     moment(时刻). When they enjoy dinner, they give each other the best wishes(最
-    好的祝视愿)for the coming year.
-    时态:一般现在时`
+    
+ `
+    
 }

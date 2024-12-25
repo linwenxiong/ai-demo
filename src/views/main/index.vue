@@ -1,6 +1,6 @@
 <template>
-  <Header @item-click="navClick" />
-  <swiper :slides-per-view="1" class="swiper-container">
+  <Header @item-click="navClick" :active-index="current" />
+  <swiper  @swiper="initSwiper" class="swiper-container" :slides-per-view="1"  @slideChange="onSlideChange">
     <swiper-slide class="swiper-slide-item">
       <div class="container" key="0" v-html="content" ref="contentdom">
       </div>
@@ -61,34 +61,44 @@
             </section>
           </div>
 
-        
- 
         </div>
       </div>
     </swiper-slide>
-
   </swiper>
 
-  <!-- <footer class="captions">
-    <span class="caption_text">usually就是通常，这里说春节通常在一月或者二月呀</span>
-  </footer> -->
+  <AiTeacher></AiTeacher>
+  <FooterCaption></FooterCaption>
 </template>
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from 'swiper/vue';
-console.log(SwiperSlide)
+import type {  Swiper as SwiperType } from 'swiper/types';
+
 import 'swiper/css';
 import Header from '@/components/header/index.vue';
+import AiTeacher from '@/components/ai-teacher.vue'
+import FooterCaption from '@/components/footer-caption.vue'
 import testData from '../../mock/全部解读'
 import { questionList } from '../../mock/题目'
+
 const current = ref(0)
 const contentdom = ref<HTMLElement | null>(null)
 const content = testData.content
-const navClick = (index: number) => {
-  current.value = index
-  console.log('navClick', index)
-}
 
-onMounted(() => {
+let swiperInstance: SwiperType | null = null
+
+const initSwiper = (swiper :SwiperType) => {
+  swiperInstance = swiper;
+};
+const navClick = (index: number) => {
+  swiperInstance?.slideTo(index)
+  current.value = index
+}
+const onSlideChange = (e: SwiperType) => {
+  current.value = e.activeIndex
+};
+
+onMounted(() => {  
+
   setTimeout(() => {
     var dom = document.getElementById('r1')
     dom!.classList.add('on')

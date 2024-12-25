@@ -20,13 +20,17 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup lang="ts" name="Header">
+  const props = defineProps({
+    activeIndex: {
+      type: Number, 
+      default: 0
+    },
+  });
   const emit = defineEmits(['itemClick']);
-  const activeIndex = ref(0);
   const isPlay = ref(false);
   let navList = ['全文讲解', '第一题', '第二题', '第三题', '总结'];
   const itemClick = (index: number) => {
-    activeIndex.value = index;
     emit('itemClick', index);
   }
   const startPlay = () => {
